@@ -20,3 +20,5 @@ func Login(c *gin.Context) {
 func Logout(c *gin.Context) {
 	c.JSON(http.StatusNotImplemented, gin.H{"error": "Not implemented."})
 }
+
+// test
